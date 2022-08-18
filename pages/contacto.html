@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/styles.css">
+    <title> Contacto - Ciro Y Los Persas </title>
+</head>
+
+<body class="contacto">
+    
+    <header> <id id=header> </id>
+        
+        <img class="img-center" src="../img/ciro-logo.png" alt="logo Ciro y los Persas">
+        
+        <!-- menu -->
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html"> HOME </a>
+                </li>
+                <li> 
+                    <a href="discografia.html"> DISCOGRAFIA </a>
+                </li>
+                <li>
+                    <a href="tour.html"> TOUR </a>
+                </li>
+                <li>
+                    <a href="#"> CONTACTO </a>
+                </li>
+                <li>
+                    <a href="iniciarsesion.html"> INICIA SESION </a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+    
+    <h2 class="contacto-text"> CONTACTO </h2>
+    
+    <h3 class="conocerte"> Nos gustaría conocerte y saber tú opinión al respecto, saber que es lo que te gustaría, contenido que desees ver o cambios que harías. Recuerda que tú opinión es de gran interés</h3>
+    
+    <!-- formulario -->
+    <div class="formularios">
+
+        <div class="form">   
+    
+            <form class="formulario" action="submeter-formulario.php" method="post">       
+    
+                
+                <p>
+                    <label for="nombre" class="colocar_nombre"> Nombre
+                        <span class="obligatorio"> * </span>
+                    </label>
+                    <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                </p>
+                  
+                <p>
+                    <label for="email" class="colocar_email"> Email
+                        <span class="obligatorio"> * </span>
+                    </label>
+                    <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                </p>
+                  
+                <p>
+                    <label for="mensaje" class="colocar_mensaje"> Mensaje
+                        <span class="obligatorio"> * </span>
+                    </label>                     
+                    <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                </p>         
+
+                <input class="enviar-01" type="submit" value="Enviar">
+                
+                <p class="aviso">
+                    <span class="obligatorio"> * </span> Los campos son obligatorios.
+                </p>          
+                
+            </form>
+        </div>  
+    </div>
+    
+    <footer>
+        <h4> Todos los derechos reservados | 300 Producciones | ciroylospersas@gmail.com </h4>
+        <h4>  <a href="#header">  Ir al header </a></h4>
+    </footer>
+    </body>
+</html>

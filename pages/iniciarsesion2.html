@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/styles.css">
+    <title> Inicia sesión - Ciro y los Persas </title>
+</head>
+
+<body class="iniciar-sesion2">
+     
+    <header> <id id=header> </id>
+        
+        <img class="img-center" src="../img/ciro-logo.png" alt="logo Ciro y los Persas">
+        
+        <!-- menu -->
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html"> HOME </a>
+                </li>
+                <li> 
+                    <a href="discografia.html"> DISCOGRAFIA </a>
+                </li>
+                <li>
+                    <a href="tour.html"> TOUR </a>
+                </li>
+                <li>
+                    <a href="contacto.html"> CONTACTO </a>
+                </li>
+                <li>
+                    <a href="iniciarsesion.html"> INICIA SESION </a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+    
+    <h2 class="iniciasesion2">  </h2>
+    
+    <!-- formulario -->
+    <div class="formularios">
+
+        <div class="form">   
+
+            <h2 class="iniciasesion-text"> ¡INICIA SESION! </h2>
+    
+            <form class="formulario" action="submeter-formulario.php" method="post"> 
+                  
+                <p>
+                    <label for="email" class="colocar_email"> Email
+                        <span class="obligatorio"> * </span>
+                    </label>
+                    <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                </p>
+                  
+                <p>
+                    <label for="Contraseña" class="colocar_contraseña"> Contraseña
+                        <span class="obligatorio"> * </span>
+                    </label>
+                    <input type="password" name="introducir_contraseña" id="contrasena" required="obligatorio" placeholder="Escribe tu Contraseña">
+                </p>              
+                  
+                <input class="enviar-01" type="submit" value="Enviar">
+
+                <p class="aviso">
+                    <span class="obligatorio"> * </span> Los campos son obligatorios.
+                </p>          
+                
+            </form>
+        </div>  
+    </div>
+
+    <footer>
+        <h4> Todos los derechos reservados | 300 Producciones | ciroylospersas@gmail.com </h4>
+        <h4>  <a href="#header">  Ir al header </a></h4>
+    </footer>
+</body>
+</html>
